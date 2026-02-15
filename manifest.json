@@ -1,7 +1,7 @@
 {
   "id": "openclaw-slides",
   "name": "OpenClaw Slides",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minAppVersion": "1.0.0",
   "description": "OpenClaw AI로 옵시디언 노트를 강의 슬라이드(HTML)로 변환합니다. 4가지 디자인 테마 지원.",
   "author": "sang-su0916",

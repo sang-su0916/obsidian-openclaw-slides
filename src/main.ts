@@ -38,10 +38,12 @@ interface ThemeOption {
 }
 
 const THEMES: ThemeOption[] = [
-  { id: "brutal", name: "Neo Brutalism", emoji: "🎨", desc: "굵은 테두리 · 비비드 컬러 · 오프셋 그림자" },
-  { id: "clay",   name: "Clay 3D",       emoji: "🧸", desc: "파스텔 라벤더 · 글래스모피즘 · 클레이" },
-  { id: "ghibli", name: "Ghibli Pastel", emoji: "🌿", desc: "수채화 텍스처 · 나눔명조 · 세피아" },
-  { id: "luxury", name: "Corporate Luxury", emoji: "👑", desc: "블랙+골드 · Playfair 세리프 · VIP" },
+  { id: "brutal",   name: "Neo Brutalism",     emoji: "🎨", desc: "굵은 테두리 · 비비드 컬러 · 오프셋 그림자" },
+  { id: "clay",     name: "Clay 3D",           emoji: "🧸", desc: "파스텔 라벤더 · 글래스모피즘 · 클레이" },
+  { id: "ghibli",   name: "Ghibli Pastel",     emoji: "🌿", desc: "수채화 텍스처 · 나눔명조 · 세피아" },
+  { id: "luxury",   name: "Corporate Luxury",  emoji: "👑", desc: "블랙+골드 · Playfair 세리프 · VIP" },
+  { id: "doraemon", name: "Doraemon",          emoji: "🔔", desc: "블루+화이트 · Jua 폰트 · 재미있는 강의" },
+  { id: "totoro",   name: "Totoro",            emoji: "🌳", desc: "포레스트 그린 · Gamja Flower · 자연 힐링" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -185,6 +187,8 @@ export default class OpenClawSlidesPlugin extends Plugin {
       clay: "/slide_clay",
       ghibli: "/slide_ghibli",
       luxury: "/slide_luxury",
+      doraemon: "/slide_doraemon",
+      totoro: "/slide_totoro",
     };
     const cmd = themeCmd[theme.id] || "/slide";
 
